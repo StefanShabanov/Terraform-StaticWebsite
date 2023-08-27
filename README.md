@@ -38,11 +38,11 @@ Navigate to the **terraform** directory and initiate Terraform using the command
 
 To apply the Terraform configuration, you have two options:
 
-Manual Approval (Default): Run ** terraform apply ** and you'll be prompted to approve the changes. Type **yes** to proceed.
+Manual Approval (Default): Run **terraform apply** and you'll be prompted to approve the changes. Type **yes** to proceed.
 
 Automatic Approval (Optional): To automatically apply changes without being prompted, you can use the **-auto-approve** flag: **terraform apply -auto-approve**.
 
-##Testing
+## Testing
 
 Once you've completed the setup, you can test your static website. Access it either through the S3 bucket website URL or your custom domain if you've configured one.
 
