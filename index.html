@@ -1,52 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Your Portfolio</title>
-    <style>
-        /* CSS for the black line and buttons */
-        .navbar {
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-
-        .navbar a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 20px;
-        }
-
-        /* CSS for the LinkedIn and GitHub icons */
-        .social-icons {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .social-icons a {
-            margin: 0 10px;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stefan Shabanov - Aspiring DevOps Engineer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation bar with buttons -->
-    <div class="navbar">
-        <!-- Add links for About, Projects, and Contact pages -->
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-        <!-- LinkedIn and GitHub icons with links -->
-        <div class="social-icons">
-            <!-- Replace '#' with your LinkedIn profile URL -->
-            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-            <!-- Replace '#' with your GitHub profile URL -->
-            <a href="#"><img src="github-icon.png" alt="GitHub"></a>
-        </div>
-    </div>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Stefan Shabanov</h1>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    <!-- Your website content goes here -->
-    <h1>Welcome to My Portfolio</h1>
-    <p>Here you can showcase your personal projects and achievements.</p>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome to my DevOps journey! I'm Stefan Shabanov, and I'm passionate about becoming a DevOps engineer.</p>
+            <p>I'm currently in the process of developing the skills and knowledge required to excel in the DevOps field. My goal is to contribute to the world of software development by automating, optimizing, and streamlining the software delivery process.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <p>While I'm on my journey to becoming a DevOps engineer, I'm actively acquiring and honing the following skills:</p>
+            <ul>
+              <li>Linux System Administration</li>
+              <li>AWS Cloud Services</li>
+              <li>Kubernetes Orchestration</li>
+              <li>Docker Containerization</li>
+              <li>Jenkins Continuous Integration/Continuous Deployment</li>
+              <li>Git Version Control</li>
+              <li>Helm Package Manager for Kubernetes</li>
+              <li>Terraform Infrastructure as Code</li>
+              <li>Scripting with Bash and Python</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+          <h2>Projects</h2>
+          <p>Although I'm just starting my DevOps journey, I'm excited to showcase my progress and any personal projects I undertake along the way.</p>
+          <div class="project">
+              <h3>Python Flask App Deployment</h3>
+              <p>Guide on deploying a Python Flask web application using a wide array of DevOps tools and practices. This project aims to showcase diverse technologies like Linux, AWS, Terraform, Helm, Python, Docker, Jenkins, and Kubernetes.</p>
+              <!-- Add a link to the GitHub repo for Project 1 here -->
+              <a href="https://github.com/StefanShabanov/courseProject" target="_blank">Link to GitHub repo</a>
+          </div>
+          <div class="project">
+              <h3>Creating a Static Website using Terraform</h3>
+              <p>comprehensive guide on how to create a static website using Terraform and host it on AWS S3. Follow these step-by-step instructions to successfully set up your static website or a.k.a how i actually created this portfolio.</p>
+              <!-- Add a link to the GitHub repo for Project 2 here -->
+              <a href="https://github.com/StefanShabanov/Terraform-StaticWebsite" target="_blank">Link to GitHub repo</a>
+          </div>
+          <!-- Add more projects as you progress -->
+      </div>
+  </section>
+  
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Let's connect and discuss my journey and aspirations in the DevOps field. You can reach me at:</p>
+            <ul>
+                <li>Email: <a href="mailto:shabanov.stefan@outlook.com">stefan.shabanov@example.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/stefanshabanov" target="_blank">LinkedIn Profile</a></li>
+                <li>GitHub: <a href="https://github.com/stefanshabanov" target="_blank">GitHub Profile</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Stefan Shabanov - Aspiring DevOps Engineer</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
